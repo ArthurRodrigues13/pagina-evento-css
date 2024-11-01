@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock in Rio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ROCK IN RIO</h1>
+        <nav>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre o Evento</a></li>
+                <li><a href="#">Loja Oficial</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div>
+                <h2>Aqui tem muito Rock!</h2>
+                <p>Não perca a oportunidade de ouvir seus cantores favoritos este ano! </p>
+                <a href="#" class="btn">Compre seu ingresso aqui!</a>
+            </div>
+        </section>
+        <section class="experiencia">
+            <div class="container">
+                <h2>Nossos Shows</h2>
+                <div class="card-grid">
+
+                    <!--grid de cards-->
+                    <div id="card-01" class="card">
+                        <div class="card-content">
+                            <img src="https://th.bing.com/th/id/OIP.SjXY1NM3UUSFsQ_numVKRgHaEK?w=325&h=182&c=7&r=0&o=5&pid=1.7"
+                                alt="imagem do cantor Bruno mars" />
+                            <h3>Bruno Mars</h3>
+                            <h4>O Queridinho do Brasil!</h4>
+                            <p>Apelidado de "Bruninho" pelos fãs brasileiros, nunca
+                                decepiciona em seus shows, tem uma performace que cativa e envolve seus fãs.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="card-02" class="card">
+                        <div class="card-content">
+                            <img src="https://th.bing.com/th/id/OIP.dER9O_xUoa7mfbOfS9gUTgHaEo?w=294&h=183&c=7&r=0&o=5&pid=1.7"
+                                alt="imagem do cantor Michael jackson" />
+                            <h3>Michael Jackson</h3>
+                            <h4>O Rei do Pop!</h4>
+                            <p>Ressucitou! Estava se escondendo em xique xique Bahia para fugir dos
+                                holofotes e resolveu dar as
+                                caras no maior show de nosso país!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="card-03" class="card">
+                        <div class="card-content">
+                            <img src="https://th.bing.com/th/id/OIP.Um8F53mQ97YDotnIJD-YMgHaEK?w=297&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="imagem do cantor Kanye west" />
+                            <h3>Kanye West</h3>
+                            <h4>The GOAT!</h4>
+                            <p>Após sua conversão ao cristianismo, Kanye só tem lançado músicas gospel e
+                                que estão impactando muito essa geração, com letras reflexivas e que falam do amor de
+                                Cristo por nós.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="foot_direitos">2025 - Rock in Rio. todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
