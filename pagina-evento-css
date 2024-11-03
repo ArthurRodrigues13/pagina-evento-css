@@ -1,37 +1,42 @@
-body{
+body {
     background-color: black;
 }
-/*Estilo para nosso cabeçalho*/
-header{
+
+/* Estilo para nosso cabeçalho */
+header {
     background-color: #333;
     padding: 20px;
     color: white;
 }
-header h1{
+header h1 {
     text-align: center;
     font-size: 36px;
 }
-header nav ul{
-    
+header nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 15px;
 }
-header nav li{
+header nav li {
     margin: 15px;
 }
-header nav li a{
+header nav li a,
+header nav li button {
     color: red;
     text-decoration: none;
     font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
-header nav li a:hover{
+header nav li a:hover,
+header nav li button:hover {
     text-decoration: underline;
     color: black;
 }
 
-.banner{
+.banner {
     background: url('img/banner02.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
@@ -39,21 +44,21 @@ header nav li a:hover{
     align-items: center;
     text-align: center;
 }
-.banner h2{
+.banner h2 {
     font-size: 48px;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.banner p{
+.banner p {
     font-size: 20px;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.banner a{
+.banner a {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.banner .btn{
+.banner .btn {
     background-color: red;
     color: white;
     padding: 20px;
@@ -61,59 +66,78 @@ header nav li a:hover{
     font-size: 18px;
     border-radius: 5px;
 }
-.foot_direitos{
+.foot_direitos {
     text-align: right;
+}
+.experiencia {
+    background-color: white;
+    color: black;
+}
+.experiencia h2 {
+    text-align: center;
+    font-size: 36px;
+}
+.card-grid {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: #333;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+}
+.card h3 {
+    font-size: 24px;
+    margin: 10px;
+    color: #333;
+}
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+.card:hover {
+    transform: scale(1.10);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
 
-    }
-    .experiencia{
-        background-color: white;
-        color: black;
-    }
-    .experiencia h2{
-        text-align: center;
-        font-size: 36px;
-    }
-    .card-grid{
-        display: flex;
-        justify-content: center;
-    }
-    .card{
-        background-color: white;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        width: 300px;
-        box-shadow: #333;
-    }
-    .card img{
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
-    .card-content{
-        padding: 20px;
-    }
-    .card h3{
-        font-size: 24px;
-        margin: 10px;
-        color: #333;
-    }
-    .card p{
-        font-size: 16px;
-        color: #666;
-    }
-    .card :hover{
-        transform: scale(1.10);
-    }
-    .container{
-        width: 100%;
-        margin: 0 auto;
-        background-color: black;
-    }
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
 
-    footer{
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        margin-top: 50px;
-    }
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+}
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+.close-button {
+    color: #333;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
